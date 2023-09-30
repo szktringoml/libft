@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include "ft_printf/inc/ft_printf_bonus.h"
+# include "getnextline/get_next_line.h"
 # include <stdlib.h>
 # include <unistd.h>
 
