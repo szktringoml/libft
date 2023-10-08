@@ -6,7 +6,7 @@
 #    By: kousuzuk <kousuzuk@student.42tokyo.jp>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/02 13:12:57 by kousuzuk          #+#    #+#              #
-#    Updated: 2023/09/29 15:57:15 by kousuzuk         ###   ########.fr        #
+#    Updated: 2023/10/08 10:51:43 by kousuzuk         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,7 +58,9 @@ SRCS		= ft_isalpha.c \
 			  ft_printf/bonus_src/ft_generates_bonus.c \
 			  ft_printf/bonus_src/ft_hexaSystem_bonus.c \
 			  getnextline/get_next_line_bonus.c \
-			  getnextline/get_next_line_utils_bonus.c
+			  getnextline/get_next_line_utils_bonus.c \
+			  ft_abs_i.c \
+			  ft_isverify_file_extension.c
 
 OBJS		= ${SRCS:.c=.o}
 NAME		= libft.a
